@@ -421,8 +421,8 @@ export default {
     },
     methods: {
     	onClickItem(index) {
-    		if (this.current !== index) {
-    			this.current = index;
+    		if (this.current !== index.currentIndex) {
+    			this.current = index.currentIndex;
     		}
     	}
     }
